@@ -4,7 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Studio</title>
   </head>
   <body>
     <!-- main container -->
@@ -102,7 +114,6 @@
               style="color: #6c0345"
             >
               <h5>WEDDING</h5>
-              <p>CAPTURE REMARKABLE MOMENTS</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
@@ -116,7 +127,6 @@
               style="color: #ff006a"
             >
               <h5>COUPLES</h5>
-              <p>SAVE HAPPY DAYS FOR LIFE</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
@@ -130,7 +140,6 @@
               style="color: #e56399"
             >
               <h5>PORTRAIT</h5>
-              <p>SNAP YOUR BEST PHOTOS</p>
             </div>
           </div>
         </div>
@@ -157,161 +166,59 @@
       <!-- What we do -->
       <div id="category">
         <div class="container">
-          <div class="d-md-flex justify-content-between align-items-center">
-            <div>
-              <h2 class="display-6 fw-semibold">We are here to help in :</h2>
-            </div>
+          <div>
+            <h2
+              class="display-6 fw-semibold text-center p-2"
+              style="text-decoration: underline"
+            >
+              We are here to help in :
+            </h2>
           </div>
           <div class="row g-md-3 mt-2">
             <div class="col-md-4">
               <div class="primary rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <img src="./assets/img/icons/camera.svg" alt="" />
+                <div class="d-flex align-items-center justify-content-center">
+                  <img
+                    src="./assets/img/icons/camera.svg"
+                    alt=""
+                    class="img-icon"
+                  />
                   <div class="ps-4">
                     <p class="category-paragraph fw-bold text-uppercase mb-1">
                       Photo Session
                     </p>
-                    <p class="category-paragraph m-0">39 courses</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tertiary rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#speakerphone" class="svg-tertiary" />
-                  </svg>
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      SEO & Marketing
-                    </p>
-                    <p class="category-paragraph m-0">24 courses</p>
-                  </div>
-                </div>
-              </div>
-              <div class="secondary rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#handshake" class="svg-secondary" />
-                  </svg>
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Business & Finance
-                    </p>
-                    <p class="category-paragraph m-0">16 courses</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="gray rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#camera" class="svg-gray" />
-                  </svg>
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Video & Photography
-                    </p>
-                    <p class="category-paragraph m-0">39 courses</p>
-                  </div>
-                </div>
-              </div>
-              <div class="secondary rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#laptop" class="svg-secondary" />
-                  </svg>
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Computer Science
-                    </p>
-                    <p class="category-paragraph m-0">16 courses</p>
-                  </div>
-                </div>
-              </div>
-              <div class="tertiary rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#fitness" class="svg-tertiary" />
-                  </svg>
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Health & Fitness
-                    </p>
-                    <p class="category-paragraph m-0">24 courses</p>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="tertiary rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#speakerphone" class="svg-tertiary" />
-                  </svg>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img
+                    src="./assets/img/icons/camera-video.svg"
+                    alt=""
+                    class="img-icon"
+                  />
                   <div class="ps-4">
                     <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      SEO & Marketing
+                      Video Photography
                     </p>
-                    <p class="category-paragraph m-0">24 courses</p>
                   </div>
                 </div>
               </div>
-              <div class="primary rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#pencil-box" class="svg-primary" />
-                  </svg>
+            </div>
+            <div class="col-md-4">
+              <div class="secondary rounded-3 p-4 my-3">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img
+                    src="./assets/img/icons/book-half.svg"
+                    alt=""
+                    class="img-icon"
+                  />
                   <div class="ps-4">
                     <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Graphic Design
+                      Graphic Courses
                     </p>
-                    <p class="category-paragraph m-0">39 courses</p>
-                  </div>
-                </div>
-              </div>
-              <div class="gray rounded-3 p-4 my-3">
-                <div class="d-flex align-items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="60px"
-                    height="60px"
-                  >
-                    <use href="#pencil-box" class="svg-gray" />
-                  </svg>
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Graphic Design
-                    </p>
-                    <p class="category-paragraph m-0">39 courses</p>
                   </div>
                 </div>
               </div>
@@ -319,12 +226,129 @@
           </div>
         </div>
       </div>
-
       <!-- Latest Photos -->
-      <!-- Latest gallery -->
-
+      <div>
+        <h2
+          class="display-6 fw-semibold text-center p-2"
+          style="text-decoration: underline"
+        >
+          Latest Photos :
+        </h2>
+        <div class="gallery row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/wedding/11.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/wedding/11.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/wedding/13.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/wedding/13.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/wedding/14.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/wedding/14.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/wedding/15.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/wedding/15.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/couple/1.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/couple/1.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/couple/8.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/couple/8.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/couple/3.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/couple/3.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/couple/16.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/couple/16.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/port/2.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/port/2.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/port/3.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/port/3.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/port/5.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/port/5.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/port/7.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/port/7.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <!-- Latest Videos -->
+      <div>
+        <h2
+          class="display-6 fw-semibold text-center p-2"
+          style="text-decoration: underline"
+        >
+          Latest Photos :
+        </h2>
+        <div class="gallery row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="./assets/img/wedding/11.jpg" data-fancybox="gallery"
+              ><img
+                src="./assets/img/wedding/11.jpg"
+                class="img-thumbnail image-link my-3"
+            /></a>
+          </div>
+        </div>
+      </div>
       <footer>
+        <script src="./assets/js/jquery.min.js"></script>
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/custom.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script>
+          Fancybox.bind("[data-fancybox]", {
+            // Your custom options
+          });
+        </script>
       </footer>
     </div>
     <!-- End of main container -->

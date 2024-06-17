@@ -12,6 +12,8 @@
 }
 
 body {
+  font-family: "Cairo", sans-serif;
+  scroll-behavior: smooth;
   --bs-link-color: var(--dark-color);
   --bs-link-hover-color: var(--dark-color);
 
@@ -112,4 +114,13 @@ body {
 .gray:hover .svg-gray,
 .gray:hover .category-paragraph {
   color: var(--light-color);
+}
+.img-icon {
+  height: 30px;
+  width: 30px;
+}
+
+/* image gallery */
+.gallery img:hover {
+  filter: blur(2px);
 }
