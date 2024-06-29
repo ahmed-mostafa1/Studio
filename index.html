@@ -54,13 +54,16 @@
           >
             <ul class="navbar-nav mb-2 justify-content-center">
               <li class="nav-item">
-                <a class="nav-link active n-l" aria-current="page" href="#"
+                <a
+                  class="nav-link active hvr-underline-from-center"
+                  aria-current="page"
+                  href="#"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active n-l"
+                  class="nav-link active hvr-underline-from-center"
                   aria-current="page"
                   href="./gallery.html"
                   >Gallery</a
@@ -68,7 +71,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active n-l"
+                  class="nav-link active hvr-underline-from-center"
                   aria-current="page"
                   href="pricing.html"
                   >Prices</a
@@ -76,7 +79,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link active n-l"
+                  class="nav-link active hvr-underline-from-center"
                   aria-current="page"
                   href="./contact.html"
                   >Contact</a
@@ -87,7 +90,6 @@
           <!-- end main menu -->
         </div>
       </nav>
-
       <!-- start hero -->
       <div
         id="hero-carousel"
@@ -176,67 +178,61 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
       <!-- What we do -->
       <div id="category">
         <div class="container">
-          <div>
-            <h2
-              class="display-6 text-center p-2 category-paragraph fw-bold"
-              style="text-decoration: underline"
-            >
-              We can do :
-            </h2>
+          <h2 class="display-6 p-2 category-paragraph fw-bold text-center">
+            We can do :
+          </h2>
+        </div>
+        <div class="row g-md-3 mt-2">
+          <div class="col-md-4">
+            <div class="primary rounded-3 p-4 my-3 text-center">
+              <img
+                src="./assets/img/icons/camera.gif"
+                alt=""
+                class="img-icon"
+              />
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="ps-4">
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">
+                    Photo Session
+                  </p>
+                  <p>best shots for better photos</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="row g-md-3 mt-2">
-            <div class="col-md-4">
-              <div class="primary rounded-3 p-4 my-3 text-center">
-                <img
-                  src="./assets/img/icons/camera.gif"
-                  alt=""
-                  class="img-icon"
-                />
-                <div class="d-flex align-items-center justify-content-center">
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Photo Session
-                    </p>
-                    <p>best shots for better photos</p>
-                  </div>
+          <div class="col-md-4">
+            <div class="tertiary rounded-3 p-4 my-3 text-center">
+              <img
+                src="./assets/img/icons/cameraman.gif"
+                alt=""
+                class="img-icon"
+              />
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="ps-4">
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">
+                    Video Photography
+                  </p>
+                  <p>with most modern camera</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="tertiary rounded-3 p-4 my-3 text-center">
-                <img
-                  src="./assets/img/icons/cameraman.gif"
-                  alt=""
-                  class="img-icon"
-                />
-                <div class="d-flex align-items-center justify-content-center">
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Video Photography
-                    </p>
-                    <p>with most modern camera</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="secondary rounded-3 p-4 my-3 text-center">
-                <img
-                  src="./assets/img/icons/book.gif"
-                  alt=""
-                  class="img-icon text-center"
-                />
-                <div class="d-flex align-items-center justify-content-center">
-                  <div class="ps-4">
-                    <p class="category-paragraph fw-bold text-uppercase mb-1">
-                      Graphic Courses
-                    </p>
-                    <p>latest photograpy material</p>
-                  </div>
+          </div>
+          <div class="col-md-4">
+            <div class="secondary rounded-3 p-4 my-3 text-center">
+              <img
+                src="./assets/img/icons/book.gif"
+                alt=""
+                class="img-icon text-center"
+              />
+              <div class="d-flex align-items-center justify-content-center">
+                <div class="ps-4">
+                  <p class="category-paragraph fw-bold text-uppercase mb-1">
+                    Graphic Courses
+                  </p>
+                  <p>latest photograpy material</p>
                 </div>
               </div>
             </div>
@@ -245,7 +241,14 @@
       </div>
       <!-- Latest Photos -->
       <div class="photo-gallery" id="gallery-sec">
-        <h2 class="gray rounded-3 p-4 my-3 text-center">Latest Photos :</h2>
+        <h2 class="gray rounded-3 p-4 my-3 text-center">
+          <img
+            class="gal-photo"
+            src="./assets/img/icons/photo-gallery.gif"
+            alt=""
+          />
+          Latest Photos :
+        </h2>
         <div class="gallery row">
           <div class="col-lg-3 col-md-4 col-sm-6">
             <a href="./assets/img/wedding/11.jpg" data-fancybox="gallery"
@@ -335,7 +338,14 @@
       </div>
       <!-- Latest Videos -->
       <div class="video-gallery">
-        <h2 class="tertiary rounded-3 p-4 my-3 text-center">Latest Videos :</h2>
+        <h2 class="tertiary rounded-3 p-4 my-3 text-center">
+          <img
+            class="gal-photo"
+            src="./assets/img/icons/video-gallery.gif"
+            alt=""
+          />
+          Latest Videos :
+        </h2>
         <div class="gallery-vid row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="./assets/vid/1.mp4" data-fancybox="gallery-vid"
@@ -369,10 +379,16 @@
       </div>
       <!-- prices -->
       <div class="main-price-container">
-        <h2 class="primary rounded-3 p-4 my-3 text-center">Our Plans :</h2>
+        <h2 class="primary rounded-3 p-4 my-3 text-center">
+          <img class="gal-photo" src="./assets/img/icons/dollar.gif" alt="" />
+          Our Plans :
+        </h2>
         <div class="row">
-          <div class="col-md-4 price-card">
-            <div class="card text-center" style="margin-bottom: 5px">
+          <div class="col-md-4">
+            <div
+              class="card text-center hvr-sweep-to-bottom"
+              style="margin-bottom: 5px"
+            >
               <div class="title">
                 <i class="fa fa-camera" aria-hidden="true"></i>
                 <h2>Basic</h2>
@@ -407,7 +423,10 @@
             </div>
           </div>
           <div class="col-md-4 price-card">
-            <div class="card text-center" style="margin-bottom: 5px">
+            <div
+              class="card text-center hvr-sweep-to-bottom"
+              style="margin-bottom: 5px"
+            >
               <div class="title">
                 <i class="fa fa-camera-retro" aria-hidden="true"></i>
                 <h2>Standard</h2>
@@ -447,7 +466,10 @@
             </div>
           </div>
           <div class="col-md-4 price-card">
-            <div class="card text-center" style="margin-bottom: 5px">
+            <div
+              class="card text-center hvr-sweep-to-bottom"
+              style="margin-bottom: 5px"
+            >
               <div class="title">
                 <i class="fa fa-rocket" aria-hidden="true"></i>
                 <h2>Premium</h2>
@@ -489,17 +511,39 @@
         </div>
       </div>
       <!-- Contact me  -->
-      <h2 class="secondary rounded-3 p-4 my-3 text-center">GET IN TOUCH</h2>
-      <p class="text-center p-2">Let's create REMARKABle GREAT MONMENTS</p>
       <div class="row align-items-md-stretch">
+        <h2 class="secondary rounded-3 p-4 my-3 text-center">
+          <img class="gal-photo" src="./assets/img/icons/support.gif" alt="" />
+          GET IN TOUCH
+        </h2>
+        <p class="text-center p-2">Let's create REMARKABle GREAT MONMENTS</p>
         <div class="col-lg-6">
           <div class="contact-text">
             <ul class="contact-text">
-              <li class="contact-text location-icon">
+              <li class="contact-text">
+                <img
+                  class="gal-photo"
+                  src="./assets/img/icons/location.gif"
+                  alt=""
+                />
                 Sea street, Kafr Sakr, Sharkia
               </li>
-              <li class="contact-text tel-icon">+201055544222</li>
-              <li class="contact-text email-icon">contact@ali-email.com</li>
+              <li class="contact-text tel-icon">
+                <img
+                  class="gal-photo"
+                  src="./assets/img/icons/phone.gif"
+                  alt=""
+                />
+                +201055544222
+              </li>
+              <li class="contact-text email-icon">
+                <img
+                  class="gal-photo"
+                  src="./assets/img/icons/email.gif"
+                  alt=""
+                />
+                contact@ali-email.com
+              </li>
             </ul>
           </div>
           <!-- Social links -->
